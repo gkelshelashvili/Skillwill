@@ -40,23 +40,23 @@ function calculate2(a,b,method) {
         return console.log(false,'მიუთითე მეთოდი')
     }
     else{
-        if(method === 'მიმატება'){
+        if(method === '+'){
             return console.log(a + b,'მიმატება')
         }
-        if(method === 'გამოკლება'){
+        if(method === '-'){
             return console.log(a - b,'გამოკლება')
         }
         
-        if(method === 'გამრავლება'){
+        if(method === '*'){
             return console.log(a * b,'გამრავლება')
         }
-        if(method === 'გაყოფა'){
+        if(method === '/'){
             return console.log(a / b,'გაყოფა')
         }
     }
 }
 
-calculate2(29,2, 'მიმატება')
-calculate2(10,2, 'გამოკლება')
-calculate2(10,2, 'გამრავლება')
-calculate2(10,2, 'გაყოფა')
+calculate2(29,2, '+')
+calculate2(10,2, '-')
+calculate2(10,2, '*')
+calculate2(10,2, '/')
